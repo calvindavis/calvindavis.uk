@@ -17,6 +17,7 @@ export default function App(): JSX.Element {
 						Calvin Davis
 					</span>
 					. I'm a developer, average guitarist, and all-round great guy.
+					<span class="inline-block animate-bounce">👋</span>
 				</h1>
 			</div>
 
