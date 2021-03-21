@@ -7,6 +7,7 @@ module.exports = {
 		src: "/",
 	},
 	optimize: {
+		bundle: true,
 		minify: true,
 	},
 	plugins: ["@snowpack/plugin-postcss"],

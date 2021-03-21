@@ -1,4 +1,4 @@
-import React from "react";
+import { Fragment, h, JSX } from "preact";
 
 export default function App(): JSX.Element {
 	return (
