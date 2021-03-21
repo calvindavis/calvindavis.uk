@@ -1,4 +1,5 @@
 module.exports = {
+	darkMode: "class",
 	purge: ["./src/**/*.html", "./src/**/*.tsx"],
 	theme: {
 		colors: {
@@ -6,6 +7,7 @@ module.exports = {
 			blue: "#084f93",
 			grey: "#878581",
 			orange: "#d88144",
+			white: "#ffffff",
 			yellow: "#ffc357",
 		},
 	},
