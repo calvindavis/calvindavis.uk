@@ -6,5 +6,8 @@ module.exports = {
 	mount: {
 		src: "/",
 	},
+	optimize: {
+		minify: true,
+	},
 	plugins: ["@snowpack/plugin-postcss"],
 };
