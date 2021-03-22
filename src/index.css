@@ -6,3 +6,13 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+@variants dark {
+	.filter-none {
+		filter: none;
+	}
+
+	.filter-invert {
+		filter: invert(1);
+	}
+}

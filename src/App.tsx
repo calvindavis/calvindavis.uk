@@ -10,14 +10,21 @@ export default function App(): JSX.Element {
 
 	return (
 		<div className={isDarkMode ? "dark" : "light"}>
-			<div className="w-screen h-screen flex items-center justify-center p-4 bg-white dark:bg-black">
-				<h1 className="max-w-xl lg:max-w-4xl text-5xl lg:text-7xl font-bold text-grey">
+			<div
+				className="
+				w-screen h-screen flex items-center justify-center p-4 
+				bg-white text-black
+				dark:bg-black dark:text-grey"
+			>
+				<h1 className="max-w-xl lg:max-w-4xl text-5xl lg:text-7xl font-bold">
 					<>My name is </>
-					<span className="gradient-text bg-gradient-to-r from-blue to-black dark:from-orange dark:to-yellow">
+					<span className="gradient-text bg-gradient-to-r from-black to-blue dark:from-orange dark:to-yellow">
 						Calvin Davis
 					</span>
 					. I'm a developer, average guitarist, and all-round great guy.
-					<span class="inline-block animate-bounce">👋</span>
+					<span class="inline-block animate-bounce filter-invert dark:filter-none">
+						👋
+					</span>
 				</h1>
 			</div>
 
