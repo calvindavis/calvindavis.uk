@@ -1,29 +1,25 @@
 {
 	"name": "calvindavis.uk",
+	"private": true,
 	"version": "1.0.0",
-	"description": "Like a sourdough starter, but for a small React app.",
-	"main": "index.js",
+	"type": "module",
 	"scripts": {
-		"start": "snowpack dev",
-		"build": "snowpack build",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"preview": "vite preview",
+		"prettier": "prettier -w ."
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/calvindavis/calvindavis.uk.git"
+	"devDependencies": {
+		"@preact/preset-vite": "2.9.1",
+		"autoprefixer": "10.4.20",
+		"postcss": "8.4.47",
+		"preact": "10.24.3",
+		"prettier": "3.3.3",
+		"tailwindcss": "3.4.14",
+		"typescript": "5.6.2",
+		"vite": "5.4.10"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/calvindavis/calvindavis.uk/issues"
-	},
-	"homepage": "https://github.com/calvindavis/calvindavis.uk#readme",
-	"dependencies": {
-		"@snowpack/plugin-postcss": "^1.2.1",
-		"preact": "^10.5.13",
-		"prettier": "2.2.1",
-		"snowpack": "^3.1.2",
-		"tailwindcss": "^2.0.4"
+	"prettier": {
+		"useTabs": true
 	}
 }

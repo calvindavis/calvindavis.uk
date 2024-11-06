@@ -1,6 +1,4 @@
-import { h, JSX } from "preact";
-
-export default function ThemeToggle(): JSX.Element {
+export function ThemeToggle() {
 	function toggle() {
 		document.documentElement.classList.toggle("dark");
 	}

@@ -1,7 +1,6 @@
-import { h, JSX } from "preact";
-import ThemeToggle from "./ThemeToggle";
+import { ThemeToggle } from "./ThemeToggle";
 
-export default function App(): JSX.Element {
+export function App() {
 	return (
 		<div
 			className="

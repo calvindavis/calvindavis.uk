@@ -7,7 +7,7 @@
 	-webkit-text-fill-color: transparent;
 }
 
-@variants dark {
+@layer utilities {
 	.filter-none {
 		filter: none;
 	}
